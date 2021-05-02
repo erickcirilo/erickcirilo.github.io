@@ -1,0 +1,13 @@
+@media (min-width: 500px){
+    main{
+
+        grid-template-columns: 1fr 1fr;
+    }
+    .sectionclass{
+  width:auto;
+  display: grid;
+  width: 100%;
+  overflow: auto;
+}
+
+}

@@ -1,0 +1,19 @@
+body {
+	height: 100vh;
+	display: grid;
+	align-items: center;
+}
+/* In this case, the small viewport is the default css - no queries */
+h2 {color: blue; margin:0;border-bottom:1px dashed #999;}
+
+/* 'medium' media query section */
+@media (min-width: 32.5em) {
+	h2 {color: red;}
+}
+
+/* 'large' media query section */
+@media (min-width: 64em) {
+	h2 {color: green;}
+}
+
+section {margin: 10px auto;width: 400px;border:1px solid #bbb;background-color:#eee; padding: 7px;}
