@@ -1,4 +1,5 @@
- h1{
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@100;900&display=swap');
+h1{
     color: white;
     font-size: 45px;
     text-align: center;
@@ -12,6 +13,7 @@
 h2{
   text-align: center;
   text-shadow: 4px;
+  font-family: roboto, "lato";
 }
 body {
     background-color: lightgrey; 
@@ -63,6 +65,7 @@ nav li {
     box-shadow: 3px 3px 3px rgb(112, 111, 111);
     
   }
+ 
   @media only screen and ( min-width: 820px ) {
   .column-wrap {
     margin: 10px;
@@ -102,19 +105,8 @@ section {
       text-align: left;
     }
 
-    li {
-      float: left;
-    }
     
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 16px;
-      text-decoration: none;
+    p{
+      font-family: Roboto;
     }
-    
-    li a:hover {
-      background-color: #3575D3;
-}
   }
