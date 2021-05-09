@@ -1,0 +1,134 @@
+body {
+  margin: 1.25rem auto;
+  max-width: 1024px;
+  line-height: 1.5;
+  font-size: 18px;
+  background-color: #007ac2;
+  font-family: 'Open Sans', sans-serif;
+}
+/* 
+header,
+footer {
+  text-align: center;
+  background-color: #42413d;
+  color: #f5f5f5;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+} */
+
+header {
+  margin-bottom: -8px;
+}
+
+img {
+  max-width: 350px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+}
+
+main {
+  font-family: 'Oxygen', sans-serif;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 48px;
+  padding-left: 48px;
+  background-color: #e7ecec;
+}
+
+footer {
+  color: white;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-left: 20px;
+  background-color: #004673;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(112, 111, 111);
+}
+
+/* footer a {
+  color: white;
+} */
+
+h1 {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #004673;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: 4px;
+  font-family: roboto, 'lato';
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+  padding-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-weight: bolder;
+}
+
+hr {
+  margin-top: -15px;
+}
+
+nav {
+  background-color: #1262a1; //el fondo del menu
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 0.8rem;
+  display: block;
+  color: #42413d;
+  text-align: center;
+  padding: 1rem;
+  background-image: linear-gradient(
+    to right,
+    #314755 0%,
+    #26a0da 51%,
+    #314755 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #ffce2b;
+  color: #42413d;
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
