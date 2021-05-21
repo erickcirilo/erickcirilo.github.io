@@ -1,0 +1,85 @@
+@media only screen and (min-width: 32.5em) {
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    flex: 1 1 100%;
+  }
+
+  header,
+  footer {
+    border-radius: 12px;
+  }
+
+  header img {
+    float: right;
+    box-shadow: -5px 20px 25px gray;
+  }
+  .weatherSum {
+    margin-bottom: 0;
+    padding-left: 1em;
+    padding-top: 1em;
+    text-align: left;
+  }
+  .hero {
+    max-width: 70%;
+    border-radius: 5px;
+    box-shadow: 0px 6px 6px 0 rgb(0 0 0 / 40%);
+  }
+  /* .prestonHeading {
+    text-shadow: 3px 3px 3px #ccc;
+  } */
+  .forecast1,
+  .forecast2,
+  .forecast3,
+  .forecast4,
+  .forecast5 {
+    max-width: 150px;
+    padding: 1em 1.3em;
+  }
+  .fiveDay {
+    text-shadow: 3px 3px 3px #ccc;
+    text-align: left;
+    margin-left: 1em;
+  }
+  .fiveDayImg {
+    border: 2px solid black;
+    margin: 0;
+    box-shadow: 0px 6px 6px 0 rgb(0 0 0 / 30%);
+    /* background-color: #73956f; */
+  }
+  /* .articleTitle {
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 1em;
+    text-shadow: 3px 3px 3px #ccc;
+  } */
+  /* .articleP {
+    display: inline-flex;
+    margin-left: 1em;
+  } */
+  /* .forecastImg {
+    box-shadow: 0px 6px 6px 0 rgb(0 0 0 / 30%);
+  } */
+  /* .contact {
+    background-color: #73956f;
+    border: 2px solid black;
+    margin: 3em;
+    padding-bottom: 1em;
+  } */
+  /* .phoneP,
+  .emailP {
+    margin-left: 38%;
+    color: white;
+  }
+  .phone,
+  .email {
+    margin-left: 35%;
+    box-shadow: 0px 3px 3px 0 rgb(0 0 0 / 30%);
+  }
+  .prestonMap {
+    border: 2px solid black;
+    box-shadow: 0px 2px 2px 3px rgb(0 0 0 / 30%);
+  } */
+}
