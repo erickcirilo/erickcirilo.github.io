@@ -1,0 +1,384 @@
+#weatherbanner {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(204, 218, 209, 1);
+  color: rgba(16, 29, 66, 1);
+  font-size: 22px;
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: open sans-serif;
+  background-color: rgba(16, 29, 66, 1);
+  color: rgba(204, 218, 209, 1);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 110px 10px 2.4fr 1fr;
+}
+
+header #website_logo {
+  width: 110px;
+  grid-column: 2/3;
+}
+
+header #nameAndSlogan {
+  grid-column: 4/5;
+  padding-right: 10px;
+}
+
+header #nameAndSlogan h1 {
+  color: #ffffff;
+}
+
+#hamburger {
+  width: 50px;
+  justify-content: center;
+  height: 50px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  color: rgba(16, 29, 66, 1);
+}
+main p {
+  color: rgba(16, 29, 66, 1);
+  font-size: 18px;
+  max-width: 75%;
+}
+main {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 48px;
+  padding-left: 48px;
+}
+.bodys {
+  background-color: #ffff;
+}
+nav button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: rgba(204, 218, 209, 1);
+}
+
+.contentbox {
+  border: 1px dotted rgba(0, 0, 0, 0.2);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 30px;
+  justify-content: center;
+}
+
+h2 {
+  color: rgba(71, 88, 65, 1);
+}
+
+h3 {
+  color: rgba(129, 82, 63, 1);
+  font-size: 16px;
+}
+
+/* nav {
+  background-color: rgba(129, 82, 63, 1);
+  font-family: 'Tienne', serif;
+  color: rgba(204, 218, 209, 1);
+} */
+
+/*Botones animados*/
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2%;
+  text-decoration: none;
+  color: rgba(204, 218, 209, 1);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul.hide {
+  display: none;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.herodiv {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+#weatherSummary {
+  position: absolute;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+  width: 260px;
+  height: 150px;
+  border: 1px solid rgba(204, 218, 209, 0.5);
+  border-radius: 15px;
+  top: 15px;
+  left: 15px;
+  background-color: #4391cc;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 25px 20px 20px 20px 20px 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#weatherSummaryTitle {
+  height: 30px;
+  border-bottom: 2px solid rgba(204, 218, 209, 1);
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+#currently {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+#curr {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+#temperature {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+#temp {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+#humidity {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+#humid {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+#precipitation {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+#prec {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+#windSpeed {
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+#wind {
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+
+#weatherSummaryTitle p {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 20px;
+  color: white;
+  margin: 2px auto;
+}
+
+.weatherDescriptor {
+  text-align: right;
+}
+
+.weatherDescriptor p {
+  color: rgba(16, 29, 66, 1);
+}
+
+.weatherStatus p {
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.herodiv img {
+  max-width: 600px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.forecast {
+  display: none;
+}
+
+.article {
+  display: block;
+  margin: 2px auto;
+  background-color: rgba(204, 218, 209, 0.5);
+  border: 2px solid rgba(71, 88, 65, 1);
+  border-radius: 15px;
+}
+
+.article img {
+  width: 400px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.articleText {
+  padding-left: 10px;
+}
+
+.contact {
+  max-width: 600px;
+  margin: 2px auto;
+  background-color: rgba(5, 69, 165, 0.5);
+  border-radius: 15px;
+}
+
+.contact #contactMap {
+  display: none;
+}
+#contactText {
+  text-align: center;
+}
+
+#contactText ul {
+  list-style-type: none;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+footer {
+  font-family: 'Tienne', serif;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgb(16, 29, 66);
+  font-size: 1em;
+}
+footer a {
+  color: rgba(16, 29, 66, 1);
+  text-decoration: none;
+  font-family: 'Archivo Black', sans-serif;
+  color: #ffffff;
+}
+
+footer a:hover {
+  font-size: 16px;
+  color: #4d43d3;
+}
+
+hr {
+  margin-top: -15px;
+}
+/* 
+nav {
+  background-color: #1262a1;
+} */
+
+/* nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} */
+nav ul li a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 0.8rem;
+  display: block;
+  color: #42413d;
+  text-align: center;
+  padding: 1rem;
+  background-image: linear-gradient(
+    to right,
+    #314755 0%,
+    #26a0da 51%,
+    #314755 100%
+  );
+  margin: 10px;
+  padding: 15px 15px;
+  text-align: auto;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 10px;
+  display: block;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+nav a:hover {
+  background-color: #ffce2b;
+  color: #42413d;
+  background-position: center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

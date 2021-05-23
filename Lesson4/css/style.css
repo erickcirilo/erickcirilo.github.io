@@ -12,7 +12,7 @@ h1 {
 }
 h2 {
   text-align: center;
-  text-shadow: 4px;
+  */*text-shadow: 4px;*/
   font-family: roboto, 'lato';
 }
 body {
