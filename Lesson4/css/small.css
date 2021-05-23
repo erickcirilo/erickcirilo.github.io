@@ -1,6 +1,6 @@
 body {
   margin: 1.25rem auto;
-  max-width: 1024px;
+  max-width: 70%;
   line-height: 1.5;
   font-size: 18px;
   background-color: #007ac2;
@@ -21,10 +21,14 @@ footer {
 header {
   margin-bottom: -8px;
 }
-.logo {
-  float: left;
-  max-width: 95px;
-  padding: 5px;
+
+img {
+  max-width: 120px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
 }
 
 main {
@@ -127,4 +131,20 @@ nav a:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
+}
+img {
+  float: left;
+}
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  /* lo alineamos al centro */
+  align-items: left;
+  flex-wrap: wrap;
+}
+
+/* logo */
+.logo {
+  letter-spacing: 3px;
+  font-size: 1.3em;
 }

@@ -1,0 +1,20 @@
+@media only screen and (min-width: 56em) {
+  nav ul#primaryNav li {
+    width: 140px;
+  }
+
+  .herodiv {
+    max-width: 1000px;
+  }
+  .herodiv img {
+    max-width: 1000px;
+  }
+
+  .article {
+    max-width: 1000px;
+  }
+
+  .contact {
+    max-width: 1000px;
+  }
+}

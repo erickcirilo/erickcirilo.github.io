@@ -1,0 +1,178 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>The Weather Predictor</title>
+
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <img id="website_logo" src="images/weatherlogo.png" alt="Website Logo" />
+      <div id="nameAndSlogan">
+        <h1>🌦 The Weather Predictor 🌦</h1>
+      </div>
+    </header>
+
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">
+        <img
+          id="hamburger"
+          src="images/weatherlogo.png"
+          alt="weather hamburger"
+        />
+      </button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li class="activesite"><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main class="bodys">
+      <h1>Preston Idaho</h1>
+      <div class="herodiv">
+        <img src="images/landscape.jpg" alt="Preston Image" />
+        <section id="weatherSummary">
+          <div id="weatherSummaryTitle"><p>Weather Summary</p></div>
+          <div class="weatherDescriptor" id="currently"><p>Currently:</p></div>
+          <div class="weatherDescriptor" id="temperature">
+            <p>Temperature:</p>
+          </div>
+          <div class="weatherDescriptor" id="humidity"><p>Humidity:</p></div>
+          <div class="weatherDescriptor" id="precipitation">
+            <p>Precipitation:</p>
+          </div>
+          <div class="weatherDescriptor" id="windSpeed"><p>Wind Speed:</p></div>
+          <div class="weatherStatus" id="curr"><p>Partly cloudy</p></div>
+          <div class="weatherStatus" id="temp"><p>55 °F</p></div>
+          <div class="weatherStatus" id="humid"><p>90%</p></div>
+          <div class="weatherStatus" id="prec"><p>0.2 inches</p></div>
+          <div class="weatherStatus" id="wind"><p>13 km/h</p></div>
+        </section>
+      </div>
+      <div class="forecast">
+        <h2>7 Days Forecast</h2>
+        <div id="forecastBox">
+          <div class="whichday" id="day1Name">Monday</div>
+          <div class="whichday" id="day2Name">Tuesday</div>
+          <div class="whichday" id="day3Name">Wednesday</div>
+          <div class="whichday" id="day4Name">Thursday</div>
+          <div class="whichday" id="day5Name">Friday</div>
+          <div class="whichday" id="day6Name">Saturday</div>
+          <div class="whichday" id="day7Name">Sunday</div>
+          <div class="dayForecast" id="day1Cast">
+            <img
+              src="/images/svg/summer-rain-svgrepo-com.svg"
+              alt="partly cloudy symbol"
+            />
+          </div>
+          <div class="dayForecast" id="day2Cast">
+            <img src="images/svg/sunset-svgrepo-com.svg" alt="sunny symbol" />
+          </div>
+          <div class="dayForecast" id="day3Cast">
+            <img
+              src="images/svg/morning-snow-svgrepo-com.svg"
+              alt="thunderstorm symbol"
+            />
+          </div>
+          <div class="dayForecast" id="day4Cast">
+            <img src="images/svg/stars-svgrepo-com.svg" alt="sunny symbol" />
+          </div>
+          <div class="dayForecast" id="day5Cast">
+            <img
+              src="images/svg/morning-snow-svgrepo-com.svg"
+              alt="sunny symbol"
+            />
+          </div>
+          <div class="dayForecast" id="day6Cast">
+            <img src="images/svg/sunset-svgrepo-com.svg" alt="sunny symbol" />
+          </div>
+          <div class="dayForecast" id="day7Cast">
+            <img src="images/svg/sunset-svgrepo-com.svg" alt="sunny symbol" />
+          </div>
+          <div class="dayTemp" id="day1Temp">65 °F</div>
+          <div class="dayTemp" id="day2Temp">68 °F</div>
+          <div class="dayTemp" id="day3Temp">40 °F</div>
+          <div class="dayTemp" id="day4Temp">45 °F</div>
+          <div class="dayTemp" id="day5Temp">71 °F</div>
+          <div class="dayTemp" id="day6Temp">62 °F</div>
+          <div class="dayTemp" id="day7Temp">62 °F</div>
+        </div>
+      </div>
+      <div class="article">
+        <img src="images/farm.jpg" alt="combine harvesting wheat" />
+        <h2 class="articleText">Farms</h2>
+        <p class="articleText">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+          officiis quibusdam unde autem ullam deleniti consectetur sequi enim
+          doloremque cupiditate expedita, aut pariatur, nulla distinctio
+          temporibus ipsam vero, aliquam ex. Saepe, eius facilis consectetur
+          culpa vel iste quisquam veniam vitae, tempora nobis sapiente ut
+          assumenda aspernatur cupiditate dolorem sunt quia voluptatum.
+          Laboriosam nulla saepe cumque perferendis delectus labore consequuntur
+          provident. Facere corrupti distinctio culpa corporis dicta. Illo
+          molestias perferendis tempora asperiores minima! Vel ea eos natus
+          cupiditate cum at, expedita ex ipsa quis officia repellendus adipisci
+          placeat saepe delectus esse. Nesciunt accusamus obcaecati velit amet
+          nulla doloremque possimus laborum repellendus dolor, commodi earum
+          quia tempora eum ipsum reiciendis aut voluptate, similique sed minus
+          dolorum temporibus voluptas aspernatur. Sunt, maxime facere.
+        </p>
+      </div>
+      <div class="contact">
+        <img id="contactMap" src="images/preston.jpg" alt="seid screenshot" />
+        <div id="contactText">
+          <h3>Weather Watch</h3>
+          <ul>
+            <li><i class="material-icons">place</i>Idaho Weather</li>
+            <li>Unknown Street</li>
+            <li><br /></li>
+            <li>☎ 0800-CALL US</li>
+            <li>✉ weather@gmail.com</li>
+            <li><br /></li>
+            <li>
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-google"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        ©<span id="year">2021</span> | Erick Cirilo | Buenos Aires - Argentina |
+        <a id="byui_link" href="https://www.byui.edu/online"
+          >BYU-I Online Learning</a
+        >
+      </p>
+      <p>Last Updated: <span id="latestEdit">05/21/2021 22:02:54</span></p>
+    </footer>
+
+    <script src="js/update.js"></script>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
