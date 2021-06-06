@@ -1,0 +1,104 @@
+@media only screen and (min-width: 56em) {
+  nav ul#primaryNav li {
+    width: 240px;
+  }
+
+  /* .herodiv {
+    max-width: 1200px;
+  }
+  .herodiv img {
+    max-width: 1200px;
+  } */
+  .weatherSummary {
+    position: absolute;
+    top: 50px;
+    box-shadow: 20px 20px 25px #007bb5;
+    opacity: 90%;
+  }
+
+  .article {
+    max-width: 1000px;
+  }
+
+  .contact {
+    max-width: 1000px;
+  }
+  main.GalleryMain {
+    width: 100%;
+    max-width: 1100px;
+    display: grid;
+    margin: 2% auto;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75px 1fr 1fr 1fr;
+    text-align: center;
+  }
+
+  .wgDiv {
+    max-width: 400px;
+  }
+
+  .wgDiv:hover {
+    box-shadow: 0 0 50px #333;
+    background-color: #007bb5;
+  }
+
+  .wgDiv:hover h3 {
+    color: rgba(204, 218, 209, 1);
+  }
+
+  .wgDiv picture img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  #wgTitle {
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+
+  #tornadoImage {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  #rainingImage {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  #sunnyImage {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  #sunsetImage {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  #snowImage {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  #cloudyImage {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+
+  #springImage {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+
+  #autumnImage {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+
+  #winterImage {
+    grid-column: 3/4;
+    grid-row: 4/5;
+  }
+}

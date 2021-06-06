@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-es">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weather Predictor</title>
+
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <img id="website_logo" src="images/weatherlogo.png" alt="Website Logo" />
+      <div id="nameAndSlogan">
+        <h1>🌦 The Weather Predictor 🌦</h1>
+      </div>
+    </header>
+
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">
+        <img
+          id="hamburger"
+          src="images/weatherlogo.png"
+          alt="weather hamburger"
+        />
+      </button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li href="#"><a href="../Lesson6/index.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li class="activesite"><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <!-- Weather Gallery Predictor in the website -->
+    <main class="GalleryMain">
+      <div id="wgTitle">
+        <h1>Weather Gallery</h1>
+      </div>
+
+      <div class="wgDiv" id="tornadoImage">
+        <picture>
+          <img
+            src="images/weatherGallery/1. Lighting and tornado hiting.jpg"
+            alt="Tornado Image"
+          />
+        </picture>
+        <h4>Photo by Ralph W. lambrecht from Pexels</h4>
+        <h3>Tornado Image</h3>
+      </div>
+
+      <div class="wgDiv" id="rainingImage">
+        <picture>
+          <img
+            src="images/weatherGallery/2. Raining day.jpg"
+            alt="Raining Image"
+          />
+        </picture>
+        <h4>Photo by Genaro Servín from Pexels</h4>
+        <h3>Raining day</h3>
+      </div>
+
+      <div class="wgDiv" id="sunnyImage">
+        <picture>
+          <img src="images/weatherGallery/3. Sunny day.jpg" alt="Sunny Image" />
+        </picture>
+        <h4>Photo by Brett Sayles from Pexels</h4>
+        <h3>Sunny day</h3>
+      </div>
+
+      <div class="wgDiv" id="sunsetImage">
+        <picture>
+          <img
+            src="images/weatherGallery/4. sunset image.jpg"
+            alt="Sunset Image"
+          />
+        </picture>
+        <h4>Photo by Bella White from Pexels</h4>
+        <h3>Sunset day</h3>
+      </div>
+      <hr />
+      <div class="wgDiv" id="snowImage">
+        <picture>
+          <img src="images/weatherGallery/5. Snowday.jpg" alt="Snow Image" />
+        </picture>
+        <h4>Photo by freestocks.org from Pexels</h4>
+        <h3>Snow Image</h3>
+      </div>
+      <hr />
+
+      <div class="wgDiv" id="cloudyImage">
+        <picture>
+          <img
+            src="images/weatherGallery/6. Cloudy day.jpg"
+            alt="CloudyImage"
+          />
+        </picture>
+        <h4>Photo by Josh Sorenson from Pexels</h4>
+        <h3>Cloudy Image</h3>
+      </div>
+
+      <div class="wgDiv" id="springImage">
+        <picture>
+          <img
+            src="images/weatherGallery/7. spring Image.jpg"
+            alt="Spring Image"
+          />
+        </picture>
+        <h4>Photo by Pink Flower Field</h4>
+        <h3>Spring Image</h3>
+      </div>
+
+      <div class="wgDiv" id="autumnImage">
+        <picture>
+          <img
+            src="images/weatherGallery/8. auntum Image.jpg"
+            alt="Autumn Image"
+          />
+        </picture>
+        <h4>Photo by Anna Kóró from Pexels</h4>
+        <h3>Autumn Image</h3>
+      </div>
+
+      <div class="wgDiv" id="winterImage">
+        <picture>
+          <img
+            src="images/weatherGallery/9.winter Image.jpg"
+            alt="Winter Image"
+          />
+        </picture>
+        <h4>Photo by Kelly Lacy from Pexels</h4>
+        <h3>Winter Image</h3>
+      </div>
+    </main>
+    <footer>
+      <p>
+        ©<span id="year">2021</span> | Erick Cirilo | Buenos Aires - Argentina |
+        <a id="byui_link" href="https://www.byui.edu/online"
+          >BYU-I Online Learning</a
+        >
+      </p>
+      <p>Last Updated: <span id="latestEdit">05/21/2021 22:02:54</span></p>
+    </footer>
+    <script src="js/update.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
