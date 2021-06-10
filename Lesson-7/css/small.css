@@ -261,7 +261,7 @@ section {
 }
 
 .article {
-  display: felx;
+  display: flex;
   margin: 2px auto;
   background-color: rgba(204, 218, 209, 0.5);
   border: 2px solid rgba(71, 88, 65, 1);
