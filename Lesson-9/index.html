@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-es">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weather Predictor</title>
+
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <img id="website_logo" src="img/weatherlogo.png" alt="Website Logo" />
+      <div id="nameAndSlogan">
+        <h1>🌦 The Weather Predictor 🌦</h1>
+      </div>
+    </header>
+
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">
+        <img id="hamburger" src="img/weatherlogo.png" alt="weather hamburger" />
+      </button>
+      <ul id="primaryNav" class="hide">
+        <li class="activesite"><a href="../Lesson-9/index.html">Home</a></li>
+
+        <li><a href="../Lesson6/index.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="../Lesson-8/index.html">Storm Center</a></li>
+        <li><a href="../Lesson-7/index.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <img
+        class="hero"
+        src="./img/rsz_mountain-2248686_1920.jpg"
+        alt="image of mountains at sunset"
+      />
+      <div class="cards"></div>
+      <div class="article">
+        <h3>Article</h3>
+        <img
+          class="artImg"
+          src="./img/rsz_1pexels-mabel-amber-125457.jpg"
+          alt="grass and puffy clouds"
+        />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, libero
+          porro. Atque nemo maxime maiores nesciunt architecto fugit, quo nihil
+          aliquam distinctio deleniti est assumenda error, vel officiis.
+          Debitis, distinctio? Voluptates, rem dolore repudiandae excepturi
+          delectus incidunt officiis animi! Laboriosam accusamus sed autem,
+          quibusdam voluptatibus cumque praesentium vero beatae quisquam animi
+          ullam nemo quis officiis, possimus ipsa nesciunt aliquam fugiat.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+          autem labore tempore repellat repudiandae fuga quidem harum dicta
+          magnam provident molestias libero non ratione quam repellendus,
+          facilis voluptas eaque enim! Corrupti ex debitis neque consequatur
+          nobis nulla sunt, quibusdam iste, laboriosam ipsam rem, voluptatibus
+          tempora earum! Magni laborum officiis molestias pariatur modi facere
+          quidem placeat sint ratione, voluptatibus, nam aperiam.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <p>
+        ©<span id="year">2021</span> | Erick Cirilo | Buenos Aires - Argentina |
+        <a id="byui_link" href="https://www.byui.edu/online"
+          >BYU-I Online Learning</a
+        >
+      </p>
+      <p>Last Updated: <span id="latestEdit">05/21/2021 22:02:54</span></p>
+    </footer>
+
+    <script src="js/update.js"></script>
+    <script src="js/town.js"></script>
+  </body>
+</html>

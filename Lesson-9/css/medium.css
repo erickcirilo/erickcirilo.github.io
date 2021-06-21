@@ -1,0 +1,101 @@
+@media only screen and (min-width: 36em) {
+  nav button {
+    display: none;
+  }
+
+  nav ul#primaryNav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  nav ul#primaryNav li {
+    width: 200px;
+  }
+
+  nav ul li a:hover {
+    font-size: 14px;
+  }
+
+  nav ul li a {
+    border: none;
+  }
+  nav {
+    background-color: #1262a1;
+    font-family: 'Tienne', serif;
+    color: #ffffff;
+    /* rgba(204, 218, 209, 1); */
+  }
+
+  .herodiv {
+    max-width: 800px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  #weatherSummary {
+    width: 280px;
+    height: 180px;
+    top: 30px;
+    left: 30px;
+    grid-template-rows: 30px 25px 25px 25px 25px 25px;
+  }
+
+  #weatherSummaryTitle p {
+    font-size: 25px;
+  }
+
+  .herodiv img {
+    max-width: 800px;
+  }
+
+  .forecast {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .dayForecast img {
+    width: 95px;
+  }
+
+  #forecastBox {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 30px 1fr 1fr;
+    font-family: 'Archivo Black', sans-serif;
+  }
+
+  .whichday {
+    background-color: #1262a1;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .dayForecast {
+    padding-top: 5px;
+  }
+
+  .dayTemp {
+    text-align: center;
+    font-size: 18px;
+    color: rgba(71, 88, 65, 1);
+    font-weight: bold;
+  }
+
+  .article {
+    max-width: 900px;
+  }
+  .article img {
+    float: right;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid rgba(71, 88, 65, 1);
+  }
+}
